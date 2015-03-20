@@ -43,6 +43,7 @@ public class JavaWordCount {
     );
     
     // count the occurrence of each word
+    //guolin test
     JavaPairRDD<String, Integer> counts = tokenized.mapToPair(
       new PairFunction<String, String, Integer>() {
         @Override
